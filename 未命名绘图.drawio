@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T12:16:06.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="fR2oDPsqn7vXEG32KXJo" type="github"><diagram id="YrF1yadFffCnvAzdEpGG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-09T12:36:35.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="97m4-zeCEM1O5GETUDrG" version="20.5.3" type="github">
+  <diagram id="YrF1yadFffCnvAzdEpGG" name="第 1 页">
+    <mxGraphModel dx="981" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-1" target="g5QWwEkMQRVYqyimhLmS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-1" value="消费者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="50" width="21" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-6" target="g5QWwEkMQRVYqyimhLmS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-6" value="输入唯一识别ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-9" target="g5QWwEkMQRVYqyimhLmS-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="280" />
+              <mxPoint x="410" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-15">
+          <mxGeometry x="0.3389" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-9" value="布隆过滤器判断数据是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304.13" y="200" width="210.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-14" target="g5QWwEkMQRVYqyimhLmS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-14" value="IPFS存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-23" target="g5QWwEkMQRVYqyimhLmS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-23" value="根据IPFS存储数据，计算根节点hash值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-25" target="g5QWwEkMQRVYqyimhLmS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-28">
+          <mxGeometry x="-0.3601" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-25" value="比较计算得到hash值和链上hash root是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259.26" y="535" width="300.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5QWwEkMQRVYqyimhLmS-27" target="g5QWwEkMQRVYqyimhLmS-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-27" value="返回产品信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="720" width="120.49" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-30" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379.56" y="840" width="60.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-37" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="514.88" y="230" as="sourcePoint" />
+            <mxPoint x="410" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="230" />
+              <mxPoint x="660" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-37">
+          <mxGeometry x="-0.8179" relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
