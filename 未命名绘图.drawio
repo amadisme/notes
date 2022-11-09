@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T12:36:35.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="97m4-zeCEM1O5GETUDrG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T12:40:35.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M4bJuzkJv7ylyccjfxjd" version="20.5.3" type="github">
   <diagram id="YrF1yadFffCnvAzdEpGG" name="第 1 页">
-    <mxGraphModel dx="981" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         </mxCell>
         <mxCell id="g5QWwEkMQRVYqyimhLmS-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-28">
           <mxGeometry x="-0.3601" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g5QWwEkMQRVYqyimhLmS-25" value="比较计算得到hash值和链上hash root是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -77,6 +77,20 @@
         <mxCell id="g5QWwEkMQRVYqyimhLmS-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-37">
           <mxGeometry x="-0.8179" relative="1" as="geometry">
             <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-42" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.26" y="585" as="sourcePoint" />
+            <mxPoint x="410" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5QWwEkMQRVYqyimhLmS-44" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5QWwEkMQRVYqyimhLmS-42">
+          <mxGeometry x="-0.8672" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
